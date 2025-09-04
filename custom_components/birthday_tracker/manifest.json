@@ -1,0 +1,20 @@
+{
+    "domain": "birthday_tracker",
+    "name": "Birthday Tracker",
+    "codeowners": [
+        "@VergilGao"
+    ],
+    "config_flow": true,
+    "dependencies": [],
+    "documentation": "https://github.com/VergilGao/birthday_tracker",
+    "integration_type": "hub",
+    "iot_class": "local_polling",
+    "requirements": [
+        "lunar_python>=1.4.4,<2.0.0"
+    ],
+    "issue_tracker": "https://github.com/VergilGao/birthday_tracker/issues",
+    "loggers": [
+        "Birthday Tracker"
+    ],
+    "version": "0.3.0"
+}
