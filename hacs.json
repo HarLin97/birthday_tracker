@@ -1,0 +1,9 @@
+{
+    "name": "Birthday Tracker",
+    "content_in_root": false,
+    "filename": "birthday_tracker",
+    "country": ["CN"],
+    "render_readme": true,
+    "domains": ["sensor"],
+    "homeassistant": "2023.1.0"
+}

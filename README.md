@@ -16,9 +16,37 @@
 
 ## 安装方式
 
-1. 将本插件复制到 `custom_components/birthday_tracker/` 目录下
-2. 在 Home Assistant 中通过 UI 添加生日配置（或使用 YAML）
+### 方法一：HACS 安装（推荐）
+
+1. 确保已安装 [HACS](https://hacs.xyz/)
+2. 在 HACS 中点击"集成"
+3. 点击右上角的三点菜单，选择"自定义存储库"
+4. 添加此存储库地址：`https://github.com/VergilGao/birthday_tracker`
+5. 类别选择"集成"
+6. 点击"添加"
+7. 搜索"Birthday Tracker"并点击"下载"
+8. 重启 Home Assistant
+
+### 方法二：GitHub 直接下载
+
+1. 下载最新的 [Release](https://github.com/VergilGao/birthday_tracker/releases) 文件
+2. 解压到 Home Assistant 的 `custom_components/` 目录下
+3. 确保目录结构为 `custom_components/birthday_tracker/`
+4. 重启 Home Assistant
+
+### 方法三：手动安装
+
+1. 克隆或下载本仓库
+2. 将 `custom_components/birthday_tracker/` 目录复制到 Home Assistant 的 `custom_components/` 目录下
 3. 重启 Home Assistant
+
+### 添加集成
+
+1. 在 Home Assistant 中，进入"设置" > "设备与服务"
+2. 点击"添加集成"按钮
+3. 搜索并选择"生日追踪器"
+4. 按照提示填写信息完成配置
+5. 可重复添加多个人的生日信息
 
 ---
 
